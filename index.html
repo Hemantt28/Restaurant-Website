@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+         <!-- Banner Section -->
+<header class="header" id="home">
+    <div class="container">
+        <div class="new_nav">
+
+            <div class="site_logo">                 
+                <a href="#"><img src="./images/site-logo.png" alt="logo"></a>
+            </div>
+
+            <div class="menu_bar" id="menuBar"><i class="fa-solid fa-bars"></i></div>
+    
+            <nav class="navbar">
+    
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Product</a></li>
+                    <li><a href="#package">Promo</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact_us">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu_mobile">
+            <div class="close_btn" onclick="onClose()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <li><a href="#home" class="active" onclick="onClose()">Home</a></li>
+                <li><a href="#menu" onclick="onClose()">Product</a></li>
+                <li><a href="#package" onclick="onClose()">Promo</a></li>
+                <li><a href="#about" onclick="onClose()">About</a></li>
+                <li><a href="#contact_us" onclick="onClose()">Contact</a></li>
+            </ul>
+        </div>
+     
+
+        <div class="banner_content">
+            <h1>Delicious</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+            <button class="order"><a href="#">ORDER NOW</a></button>
+        </div>
+    </div>
+</header>
+
+        <!-- Popular Section -->
+         <section class="popular">
+            <div class="popular_container">
+            <h2>Popular</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+
+            <div class="popular_cards">
+                <div class="popular_card_content">
+                    <img src="./images/product-1.png" alt="product1">
+                    <h3>Spicy Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="popular_card_content">
+                    <img src="./images/product-2.png" alt="product2">
+                    <h3>Vegetable Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="popular_card_content">
+                    <img src="./images/product3.png" alt="product3">
+                    <h3>Beef Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            </div>
+            
+        </section>
+
+         <!-- Statistic Section -->
+
+         <section class="statistic">
+            <div class="statistic_container">
+                <h2>Our Statistic</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+
+                <div class="statistic_cards">
+                    <div class="statistic_cards_content">
+                        <h3>153</h3>
+                        <h4>Menu</h4>
+                    </div>
+                    <div class="statistic_cards_content">
+                        <h3>3.4k</h3>
+                        <h4>Store</h4>
+                    </div>
+                    <div class="statistic_cards_content">
+                        <h3>32</h3>
+                        <h4>Country</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- menu section  -->
+
+         <section class="menu" id="menu">
+            <div class="menu_container">
+                <h2>Our Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+
+                <div class="menu_box">
+                    <div class="menu_box_content">
+                        <img src="images/icon1.png" alt="">
+                        <div class="menu_box_inner">
+                            <h3>Pasta</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                                maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                        </div>
+                    </div>
+                    <div class="menu_box_content">
+                        <img src="images/icon2.png" alt="">
+                        <div class="menu_box_inner">
+                            <h3>Mie Ayam</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                                maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                        </div>
+                    </div>
+                    <div class="menu_box_content">
+                        <img src="images/icon3.png" alt="">
+                        <div class="menu_box_inner">
+                            <h3>Carbonara</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                                maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                        </div>
+                    </div>
+                    <div class="menu_box_content">
+                        <img src="images/icon4.png" alt="">
+                        <div class="menu_box_inner">
+                            <h3>Pecel Lele</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                                maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    
+        <!-- Delicious section  -->
+
+        <section class="delicious">
+            <div class="delicious_container">
+                <div class="delicious_container_img">
+                    <img src="./images/section-4image.png" alt="section4">
+                </div>
+                <div class="delicious_container_content">
+                    <h2>Delicious Pasta</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                    <button class="delicious_button"><a href="#">Order Now</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- package menu  -->
+        
+        <section class="package" id="package">
+            <div class="package_container">
+                <h2>Package Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                
+            <div class="package_cards">
+                <div class="package_cards_content">
+                    <img src="images/icon1.png" alt="icon1">
+                    <h3>Pasta + Ice Tea</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="package_button"><a href="#">$34.00</a></button>
+                </div>
+                <div class="package_cards_content">
+                    <img src="images/icon3.png" alt="icon3">
+                    <h3>Carbonara & Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="package_button"><a href="#">$34.00</a></button>
+                </div>
+                <div class="package_cards_content">
+                    <img src="images/icon4.png" alt="icon4">
+                    <h3>My Cyam Pangsit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="package_button"><a href="#">$34.00</a></button>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+
+         <!-- testimonial section  -->
+
+         <section class="testimonial">
+            <div class="testimonial_container">
+                <img src="./images/testimonial-image.png" alt="testimonial-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <h3>Chef Renatta</h3>
+            </div>
+         </section>
+
+
+          <!-- subscribe section  -->
+
+          <section class="subscribe">
+            <div class="subscribe_container">
+                <h2>Subscribe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <div class="subscribe_btn">
+                    <form action="">
+                        <input type="email" name="mail" id="mail" placeholder="Your Email" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+          </section>
+
+          <!-- footer section  -->
+
+          <section class="footer">
+            <div class="footer_container">
+                <div class="footer_content">
+                    <div class="about_us" id="about">
+                        <h4>About Us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+                    </div>
+                    <div class="all_three" id="contact_us">
+                    <div class="about">
+                        <h5>About</h5>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Brand Guidelines</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="services">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#">How to Order</a></li>
+                            <li><a href="#">Our Product</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Promo</a></li>
+                            <li><a href="#">Payment Method</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h5>Follow</h5>
+                        <ul>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                            </svg>Facebook</a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                                <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+                            </svg>Twitter</a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                                <path d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z"></path>
+                                </svg>Instagram</a></li>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+                                <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"></path>
+                            </svg>Whatsapp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </section>
+
+
+          <script src="./script.js"></script>
+</body>
+</html>
